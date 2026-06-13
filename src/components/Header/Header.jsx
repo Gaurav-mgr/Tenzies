@@ -1,6 +1,6 @@
 export default function Header({message, gameWon, gameLose}){
   const style = {
-    color: gameWon ? "Lime" : gameLose ? "Red" : "#0b2434"
+    color: gameWon ? "#28d828" : gameLose ? "red" : "#0b2434"
   }
   return(
     <>
