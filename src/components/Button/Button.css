@@ -1,0 +1,18 @@
+.RollDice{
+  background: blue;
+  height: 50px;
+  width: fit-content;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.RollDice:hover{
+  background: #0303d1cc;
+  transform: scale(1.03);
+}

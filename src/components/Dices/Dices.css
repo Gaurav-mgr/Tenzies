@@ -1,0 +1,20 @@
+.container{
+  width: 65px;
+  height: 65px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 4px 2px 0 #0000001f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 23px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.container:hover{ 
+  transform: scale(1.03);
+  background: #f8f8f8;
+}
